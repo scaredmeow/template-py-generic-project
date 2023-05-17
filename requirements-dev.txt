@@ -1,0 +1,5 @@
+# Dev Tools
+black
+flake8
+pre-commit
+pytest
