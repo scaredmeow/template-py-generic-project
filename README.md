@@ -1,14 +1,15 @@
-# Title of the Project
+# Template-py-generic-project
 
-For a seminar about Human Computer Interaction in Software Engineering.
+Template for generic python projects
 
 ## Objective
 
-To create a simple terminal application that have unit testing, good structure, good documentation, and developer friendly.
+This templates helps to setup generic python projects using dev tools such as pre-commit and linter/formatters.
 
 ## Project Structure
 
     ├── .gitignore                <- Files and folders to be ignored by git.
+    ├── src                       <- Source folder for any python projects
     ├── CODE_OF_CONDUCT.md        <- Code of Conduct for this project.
     ├── CONTRIBUTING.md           <- Details on how to contribute to this project.
     ├── LICENSE                   <- License for this project.
