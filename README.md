@@ -10,14 +10,10 @@ This templates helps to setup generic python projects using dev tools such as pr
 
     ├── .gitignore                <- Files and folders to be ignored by git.
     ├── src                       <- Source folder for any python projects
-    ├── CODE_OF_CONDUCT.md        <- Code of Conduct for this project.
-    ├── CONTRIBUTING.md           <- Details on how to contribute to this project.
-    ├── LICENSE                   <- License for this project.
     ├── .pre-commit-config.yaml   <- Contains the configuration for pre-commit hooks. See https://pre-commit.com for more details.
     ├── README.md                 <- The top-level README for developers/collaborators using this project.
     ├── requirements-dev.txt      <- The top-level packages used in this project.
-    ├── requirements.txt          <- The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
-    └── setup.py                  <- makes project pip installable (pip install -e .) so scripts can be imported
+    └── requirements.txt          <- The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
 
 ## Tech Stack Used
 
@@ -74,7 +70,7 @@ git clone https://github.com/scaredmeow/template-py-data-project.git template-da
         .\venv\Scripts\activate.ps1
         ```
 
-    - **Bash/ZSH/Fish:**  
+    - **Bash/ZSH/Fish:**
 
         ```bash
         # source ./<env_name>/bin/activate
